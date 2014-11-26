@@ -46,8 +46,8 @@ header {
     transform: translate(-50%,-50%)
 }
 
-.introblue {
-    margin-top: 10em;
+.intropara {
+    color: white
 }
 
 hr {
@@ -187,7 +187,7 @@ hr {
     padding: 0.5rem;
     border-radius: .5em;
     font-weight: bold;
-    box-shadow: 0 2px 3px (0,0,0,0.5);
+    box-shadow: 0 2px 3px
 }
 
 footer {
