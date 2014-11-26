@@ -43,7 +43,8 @@ header {
     position: absolute;
     top: 89%;
     left: 50%;
-    transform: translate(-50%,-50%)
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
 }
 
 .intropara {
@@ -178,14 +179,17 @@ header {
 
 .button {
     font-size: 3rem;
+    text-decoration: none;
     text-transform: uppercase;
     display: block;
-    margin: 0 auto;
+    margin: 0;
     color: #3D4F28;
-    padding: 0.5rem;
+    width: 50%;
+    padding: 0;
     border-radius: .5em;
     font-weight: bold;
-    box-shadow: 0 2px 3px
+    box-shadow: 0 2px 3px;
+    text-align: center;
 }
 
 footer {
@@ -217,7 +221,7 @@ footer {
         display: inline-block;
     }
     
-    .nav {
+    .bottom-nav {
         text-align: center;
     }
     
@@ -229,11 +233,11 @@ footer {
 @media only screen and (min-width: 38em) {
     
     .bottom-nav {
-        float: center;
+        text-align: left;
     }
     
     .copyright {
-        text-align: center;
+        text-align: right;
     }   
 }
     
