@@ -21,7 +21,7 @@ html {
 body {
     margin: 0;
     padding: 0 0 0;
-    background-color: #93A1A1;
+    background-color: black;
 }
 
 header {
@@ -48,11 +48,6 @@ header {
 
 .intropara {
     color: white
-}
-
-hr {
-    border: solid 2px;
-    color: #93A1A1;
 }
 
 .skip-links {
@@ -98,9 +93,11 @@ hr {
 }
 
 .nav {
-	background-color: #000;
+	background-color: ##3D4F28;
     padding: 0;
     list-style-type: none;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .nav > ul {
@@ -162,6 +159,7 @@ hr {
     line-height: inherit;
     padding-left: .5em;
     padding-top: 1em;
+    margin-bottom: -1rem;
 }
   
 .features {
@@ -191,7 +189,7 @@ hr {
 }
 
 footer {
-    background-color: black;
+    background-color: #3D4F28;
 }
 
 .backtotop {
@@ -203,6 +201,7 @@ footer {
 
 .copyright {
     color: white;
+    text-align: center;
 }
 
 .bottom-nav a:hover,
@@ -211,7 +210,7 @@ footer {
 	background-color: #3D4F28;
     color: #fff;
 }
-    
+
 @media only screen and (min-width: 25em) {
     
     .nav li {
