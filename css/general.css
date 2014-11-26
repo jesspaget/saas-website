@@ -38,6 +38,25 @@ header {
     margin-bottom: 9em;
 }
 
+.top-button {
+    position: absolute;
+    bottom: 17em;
+    color: #000;
+    text-decoration: none;
+    border-radius: .5em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: white;
+    padding: 1em;
+    margin: 0 50%;
+    width: 10em;
+    border: 4px solid black;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);    
+}
+
+
 .logo {
     width: 30em;
     position: absolute;
@@ -182,14 +201,14 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     display: block;
-    margin: 0;
+    margin: 0 auto;
     color: #3D4F28;
-    width: 50%;
+    width: 8em;
     padding: 0;
     border-radius: .5em;
     font-weight: bold;
-    box-shadow: 0 2px 3px;
     text-align: center;
+    background-color: white;
 }
 
 footer {
