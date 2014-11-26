@@ -31,17 +31,17 @@ header {
 
 .sunset {
     width: 100%;
-    padding: 10rem 0;
+    padding: 17rem 0;
     position: relative;
     background-image: url(../images/untitled-118.jpg);
     background-size: cover;
-    margin-bottom: 7em;
+    margin-bottom: 9em;
 }
 
 .logo {
-    width: 20em;
+    width: 30em;
     position: absolute;
-    top: 87%;
+    top: 89%;
     left: 50%;
     transform: translate(-50%,-50%)
 }
@@ -229,11 +229,11 @@ footer {
 @media only screen and (min-width: 38em) {
     
     .bottom-nav {
-        float: right;
+        float: center;
     }
     
     .copyright {
-        text-align: left;
+        text-align: center;
     }   
 }
     
