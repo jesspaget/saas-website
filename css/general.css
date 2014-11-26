@@ -178,6 +178,18 @@ hr {
     text-align: center;
 }
 
+.button {
+    font-size: 3rem;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    color: #3D4F28;
+    padding: 0.5rem;
+    border-radius: .5em;
+    font-weight: bold;
+    box-shadow: 0 2px 3px (0,0,0,0.5);
+}
+
 footer {
     background-color: black;
 }
