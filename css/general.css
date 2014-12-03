@@ -38,9 +38,14 @@ header {
     margin-bottom: 9em;
 }
 
+.banner {
+    position: relative;
+}
+
 .top-button {
     position: absolute;
-    bottom: 17em;
+    top: 42%;
+    left: 50%;
     color: #000;
     text-decoration: none;
     border-radius: .5em;
@@ -49,7 +54,7 @@ header {
     text-transform: uppercase;
     background-color: white;
     padding: 1em;
-    margin: 0 50%;
+    margin: 0;
     width: 10em;
     border: 4px solid black;
     -webkit-transform: translate(-50%,-50%);
@@ -203,7 +208,7 @@ header {
     display: block;
     margin: 0 auto;
     color: #3D4F28;
-    width: 8em;
+    max-height: 8em;
     padding: 0;
     border-radius: .5em;
     font-weight: bold;
@@ -232,6 +237,43 @@ footer {
 .bottom-nav a:active {
 	background-color: #3D4F28;
     color: #fff;
+}
+
+.joinexploration {
+    text-align: center;
+}
+
+.explorationi {
+    text-align: center;
+}
+
+.form {
+    background-color: #e2e2e2;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.bottombutton {
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase;
+    border-radius: .3em;
+    background-color: #000;
+    color: white;
+}
+
+.bottombutton:hover,
+.bottombutton:focus,
+.bottombutton:active {
+    background-color: white;
+    color: black;
 }
 
 @media only screen and (min-width: 25em) {
