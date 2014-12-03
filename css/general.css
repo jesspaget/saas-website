@@ -36,15 +36,17 @@ header {
     background-image: url(../images/untitled-118.jpg);
     background-size: cover;
     margin-bottom: 9em;
+    
 }
 
 .banner {
     position: relative;
+    overflow-x: hidden;
 }
 
 .top-button {
     position: absolute;
-    top: 42%;
+    top: 32%;
     left: 50%;
     color: #000;
     text-decoration: none;
