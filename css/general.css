@@ -253,6 +253,18 @@ footer {
     background-color: #e2e2e2;
 }
 
+.subheadf {
+    font-weight: bold;
+}
+
+#paid {
+    display: none;
+}
+
+#paid:target {
+    display: block;
+}
+
 input[type="text"],
 input[type="email"],
 input[type="number"],
@@ -260,6 +272,8 @@ input[type="password"],
 textarea {
     width: 100%;
     border: 1px solid #ccc;
+    font-size: 1.5em;
+    border-radius: 5px;
 }
 
 .bottombutton {
