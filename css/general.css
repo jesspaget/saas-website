@@ -230,13 +230,13 @@ header {
     margin: 0 auto;
     color: black;
     max-height: 8em;
-    padding: 0;
+    padding: .5rem;
     border-radius: .3em;
     font-weight: bold;
     text-align: center;
     background-color: white;
     max-width: 20rem;
-    border: 4px solid #3D4F28;
+    border: 4px solid black;
 }
 
 .button:hover,
